@@ -38,14 +38,14 @@ const App = () => {
                 <input
                   type="text"
                   id="usernameTag"
-                  className="form-control"
+                  className="form-control m-1"
                   placeholder="Enter username#tag"
                   value={usernameTag}
                   onChange={(e) => setUsernameTag(e.target.value)}
                   required
                 />
               </div>
-              <button type="submit" className="btn btn-primary">
+              <button type="submit" className="btn btn-primary m-3">
                 Get Rank
               </button>
             </div>
