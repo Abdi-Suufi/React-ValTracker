@@ -1,0 +1,75 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputForm {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#rankInfo {
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    background-color: #525252;
+}
+
+.masthead {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 576px) {
+    .masthead {
+        min-height: 100vh;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1620px) {
+    .masthead {
+        min-height: 100vh;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgba(0, 38, 53, 0.35); /* Giving background opacity */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    width: 100%;
+    max-width: 800px; /* Adjust max-width if needed */
+}
